@@ -1,0 +1,2 @@
+# keycloak-remote-configurations
+TEST
