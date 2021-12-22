@@ -12,4 +12,15 @@ This process is really simple, and it should only be done once.
 1. Create the remote repo and clone it to a local directory.
 2. Copy the content of Keyclaok's standalone folder to the local directory you've created earlier.
 3. Copy the .gitignore content from this repo to your local .gitignore file and push it so the remote repo will be updated will all of the needed files.
-4. On every 
+4. Now just start your standalone[-ha] node with the command:
+```
+./standalone.[sh|bat] --git-repo=http[s]://<link-to-remote-git-repository>/<user>/<repository>.git --git-branch=main
+```
+
+> It is important to add `--git-branch=main` as the default branch is outdated and it is still configured as 'master'
+
+
+~~~
+Additional points:
+* This was tested on a 'public repo', on a 'private repo' you will need to configure an Elytron configuration file  
+* I couldn't really get it to work properly, pushing configuration from the server to the git repo didn't work for me and there is lack of documentation about troubleshooting this kind of things.
