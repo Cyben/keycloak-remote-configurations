@@ -7,7 +7,7 @@ There are only few documentations about it and non of them are detailed enough i
 2- https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.2/html/configuration_guide/jboss_eap_management#using_git_to_manage_configuration_data  
 3- https://access.redhat.com/solutions/3943361  
   
-## The real deal
+## The real simple deal
 I had problems configuring it to work properly, so I decided do document my steps.  
 This process is really simple, and it should only be done once.
 
